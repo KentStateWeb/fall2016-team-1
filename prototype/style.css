@@ -1,0 +1,94 @@
+@import url ("home.css");
+@import url ("contact.css");
+@import url ("about.css");
+@import url('https://fonts.googleapis.com/css?family=Questrial|Roboto+Slab:400,700');
+
+.navigation li a {
+        display: block;
+            border-bottom: 1px solid #d6c2d8;
+            padding: 1em;
+            text-align: center;
+        }
+
+        @media all and (min-width: 40em) {
+            .navigation li {
+                display: inline-block;
+                margin: 0 0.5em;
+            }
+            .navigation li a {
+                padding: 1em 0.5em;
+                border: 0;
+            }
+        }
+body {
+  max-width: 1000px;
+  padding: 1em;
+  font-family: 'Questrial', Helvetica, Arial, sans-serif;
+}
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+header {
+  width: 100%;
+  background-color: #682a80;
+  color: white;
+  margin: none;
+  padding: none;
+  text-align: center;
+}
+nav a {
+  color: white;
+}
+header ul {
+    list-style: none;
+    display: inline;
+}
+.img-responsive {
+  max-width: 700px;
+}
+h1 {
+  color: #682a80;
+  font-size: 28px;
+  font-family: 'Roboto Slab', Times, Georgia, serif;
+  font-weight: 700;
+}
+h2 {
+  color: #682a80;
+  font-size: 24px;
+  font-family: 'Roboto Slab', Times, Georgia, serif;
+}
+h3 {
+  color: #057d98;
+  font-size: 20px;
+  font-family: 'Roboto Slab', Times, Georgia, serif;
+}
+p {
+  color: #212121;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+@media (min-width: 500px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+}
