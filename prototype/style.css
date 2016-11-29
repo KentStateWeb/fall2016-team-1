@@ -1,6 +1,6 @@
 @import url ("home.css");
-@import url ("contact.css");
-@import url ("about.css");
+@import url ("css/contact.css");
+@import url ("css/about.css");
 @import url('https://fonts.googleapis.com/css?family=Questrial|Roboto+Slab:400,700');
 
 .navigation li a {
@@ -21,13 +21,10 @@
             }
         }
 body {
-  max-width: 1000px;
-  padding: 1em;
   font-family: 'Questrial', Helvetica, Arial, sans-serif;
 }
 div, section, main, aside, header, footer {
   border: 1px solid lightgray;
-  padding: .5em;
   margin-bottom: 1em;
 }
 header {
@@ -58,6 +55,7 @@ h2 {
   color: #682a80;
   font-size: 24px;
   font-family: 'Roboto Slab', Times, Georgia, serif;
+  padding-left: 8vw;
 }
 h3 {
   color: #057d98;
