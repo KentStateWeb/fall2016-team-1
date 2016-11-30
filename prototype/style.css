@@ -8,33 +8,30 @@
             border-bottom: 1px solid #d6c2d8;
             padding: 1em;
             text-align: center;
+            text-decoration: none;
         }
-
-        @media all and (min-width: 40em) {
-            .navigation li {
-                display: inline-block;
-                margin: 0 0.5em;
-            }
-            .navigation li a {
-                padding: 1em 0.5em;
-                border: 0;
-            }
-        }
+.navigation a:hover {
+  background-color: #d6c2d8;
+  color: #682a80;
+  border-radius: 7px;
+}
 body {
+  width: 100%;
   font-family: 'Questrial', Helvetica, Arial, sans-serif;
+  background-color: #FFFAF5;
 }
 div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
   margin-bottom: 1em;
 }
 header {
   width: 100%;
   background-color: #682a80;
   color: white;
-  margin: none;
-  padding: none;
-  text-align: center;
+  margin-left: -20px;
+  padding-right: 60px;
+  margin-top: -20px;
 }
+
 nav a {
   color: white;
 }
@@ -42,31 +39,73 @@ header ul {
     list-style: none;
     display: inline;
 }
+
 .img-responsive {
   max-width: 700px;
 }
+
 h1 {
   color: #682a80;
   font-size: 28px;
   font-family: 'Roboto Slab', Times, Georgia, serif;
   font-weight: 700;
 }
+
 h2 {
   color: #682a80;
   font-size: 24px;
   font-family: 'Roboto Slab', Times, Georgia, serif;
   padding-left: 8vw;
 }
+
 h3 {
   color: #057d98;
   font-size: 20px;
   font-family: 'Roboto Slab', Times, Georgia, serif;
+  padding-top:0px;
+  margin-top:0px;
 }
+
 p {
   color: #212121;
   line-height: 24px;
   font-size: 18px;
 }
+
+
+.header-logo{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subhead {
+  background-color: white;
+  width: 80vw;
+  border-radius: 30px;
+  margin: 40px auto;
+  padding: 40px;
+  border: solid 1px #d6c2d8;
+}
+
+/* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
+
+.carousel-cell {
+    width: 100%;
+}
+
+.carousel-cell img {
+    width: 100%;
+    height: auto;
+}
+
+/* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
+.carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
 
 @media (min-width: 500px) {
   h1 {
@@ -79,6 +118,8 @@ p {
     font-size: 24px;
   }
 }
+
+
 @media (min-width: 768px) {
   h1 {
     font-size: 48px;
@@ -89,4 +130,30 @@ p {
   h3 {
     font-size: 28px;
   }
+}
+
+
+@media all and (min-width: 40em) {
+    .navigation li {
+        display: inline-block;
+        text-align: right;
+        margin-top: 60px;
+    }
+    .navigation li a {
+        padding: 1em 0.5em;
+        border: 0;
+        text-align: right;
+    }
+    .navigation {
+      margin-left: auto;
+    }
+    header {
+      display: flex;
+      align-items: stretch;
+    }
+    .header-logo {
+      text-align: left;
+      margin-left: 60px;
+      width: 250px;
+            }
 }
