@@ -16,10 +16,12 @@
   border-radius: 7px;
 }
 html {
+  width: 100%;
   overflow-x: hidden;
 }
 body {
   width: 100%;
+  overflow-x: hidden;
   font-family: 'Questrial', Helvetica, Arial, sans-serif;
   background-color: #FFFAF5;
 }
