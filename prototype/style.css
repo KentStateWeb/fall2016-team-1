@@ -15,6 +15,9 @@
   color: #682a80;
   border-radius: 7px;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   width: 100%;
   font-family: 'Questrial', Helvetica, Arial, sans-serif;
