@@ -11,7 +11,12 @@ body {
 .widePhoto {
   background-image: url('../img/hands.jpg');
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
   width: 100%;
   height: 70vh;
+}
+@media (max-width: 700px) {
+  .widePhoto {
+      background-size:contain;
+  }
 }
