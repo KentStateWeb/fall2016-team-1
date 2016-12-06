@@ -10,6 +10,7 @@ body {
 }
 .widePhoto {
   background-image: url('../img/hands.jpg');
+  background-size: contain;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
