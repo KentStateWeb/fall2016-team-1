@@ -1,0 +1,17 @@
+body {
+  background-color: #FFFAF5;
+}
+.subhead {
+  background-color: white;
+  width: 80vw;
+  border-radius: 30px;
+  margin: 40px auto;
+  padding: 30px;
+}
+.widePhoto {
+  background-image: url('../img/phone.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}

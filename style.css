@@ -81,7 +81,41 @@ p {
   line-height: 24px;
   font-size: 18px;
 }
-
+.questrial {
+  font-size: 80px;
+  margin:50px;
+  margin-left: 200px;
+  font-family: 'Questrial', Helvetica, Arial, sans-serif;
+}
+.roboto {
+  font-size: 80px;
+  margin-top:-30px;
+  margin-bottom:50px;
+  margin-left: 200px;
+  font-family: 'Roboto Slab', Times, Georgia, serif;
+}
+.purp {
+  background-color: #682a80;
+  height: 90px;
+  width: 90px;
+  margin:50px;
+  margin-left: 200px;
+}
+.blue {
+  background-color: #057d98;
+  height: 90px;
+  width: 90px;
+  margin:50px;
+  margin-left: 200px;
+}
+.tan {
+  background-color: #FFFAF5;
+  height: 90px;
+  width: 90px;
+  margin:50px;
+  margin-left: 200px;
+  border: 1px solid black;
+}
 
 .header-logo{
   width: 200px;
@@ -94,7 +128,10 @@ p {
   width: 170px;
   display: flex;
 }
-
+footer {
+  margin: 50px;
+  margin-left: 200px;
+}
 .subhead {
   background-color: white;
   width: 80vw;
