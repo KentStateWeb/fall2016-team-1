@@ -19,12 +19,14 @@ font-size: 28px;
 font-family: 'Roboto Slab', Times, Georgia, serif;
 font-weight: 700;
 }
+
 h2 {
 color: #057d98;
 font-size: 24px;
 font-family: 'Roboto Slab', Times, Georgia, serif;
 padding-left: 3vw;
 }
+
 h3 {
 color: #057d98;
 font-size: 20px;
@@ -32,6 +34,7 @@ font-family: 'Roboto Slab', Times, Georgia, serif;
 padding-top:0px;
 margin-top:0px;
 }
+
 h4 {
 color: #057d98;
 font-size: 18px;
@@ -43,6 +46,7 @@ margin-top:0px;
 a {
 margin-left: 40px;
 }
+
 .button {
 font-family: 'Questrial', Helvetica, Arial, sans-serif;
 background-color: #682a80; /* Dark purple */
@@ -55,9 +59,14 @@ font-size: 16px;
 border-radius: 10px;
 text-decoration: none;
 }
+
 a:hover {
 background-color: #d6c2d8;
 color: #682a80;
 border-radius: 7px;
+}
+
+footer{
+  font-family: 'Questrial', Helvetica, Arial, sans-serif;
 }
 </style>
