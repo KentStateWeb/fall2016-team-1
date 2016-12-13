@@ -1,0 +1,174 @@
+@import url ("home.css");
+@import url ("css/contact.css");
+@import url ("css/about.css");
+@import url('https://fonts.googleapis.com/css?family=Questrial|Roboto+Slab:400,700');
+
+.navigation li a {
+        display: block;
+            border-bottom: 1px solid #d6c2d8;
+            padding: 1em;
+            text-align: center;
+            text-decoration: none;
+        }
+.navigation a:hover {
+  background-color: #d6c2d8;
+  color: #682a80;
+  border-radius: 7px;
+}
+.navigation a:focus {
+  background-color: #d6c2d8;
+  color: #682a80;
+  border-radius: 7px;
+}
+html {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Questrial', Helvetica, Arial, sans-serif;
+  background-color: #FFFAF5;
+}
+
+header {
+  width: 100%;
+  background-color: #682a80;
+  color: white;
+  margin-left: -20px;
+  padding-right: 60px;
+  margin-top: -20px;
+}
+
+nav a {
+  color: white;
+}
+header ul {
+    list-style: none;
+    display: inline;
+}
+
+.img-responsive {
+  max-width: 700px;
+}
+
+h1 {
+  color: #682a80;
+  font-size: 28px;
+  font-family: 'Roboto Slab', Times, Georgia, serif;
+  font-weight: 700;
+}
+
+h2 {
+  color: #682a80;
+  font-size: 24px;
+  font-family: 'Roboto Slab', Times, Georgia, serif;
+  padding-left: 8vw;
+}
+
+h3 {
+  color: #057d98;
+  font-size: 20px;
+  font-family: 'Roboto Slab', Times, Georgia, serif;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+p {
+  color: #212121;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+
+.header-logo{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-logo{
+  width: 170px;
+  display: flex;
+}
+
+.subhead {
+  background-color: white;
+  width: 80vw;
+  border-radius: 30px;
+  margin: 40px auto;
+  padding: 40px;
+  border: solid 1px #d6c2d8;
+}
+
+/* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
+
+.carousel-cell {
+    width: 100%;
+}
+
+.carousel-cell img {
+    width: 100%;
+    height: auto;
+}
+
+/* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
+.carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
+
+@media (min-width: 500px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+}
+
+
+@media all and (min-width: 40em) {
+    .navigation li {
+        display: inline-block;
+        text-align: right;
+        margin-top: 60px;
+    }
+    .navigation li a {
+        padding: 1em 0.5em;
+        border: 0;
+        text-align: right;
+    }
+    .navigation {
+      margin-left: auto;
+    }
+    header {
+      display: flex;
+      align-items: stretch;
+    }
+    .header-logo {
+      text-align: left;
+      margin-left: 60px;
+      width: 250px;
+            }
+}
